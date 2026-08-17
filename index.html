@@ -1,0 +1,471 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alissa y Evencio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/YouTubePopUp.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
+    <!-- Progress-wrapp scroll-button -->
+    <div class="progress-wrap active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper navbar-brand valign">
+                <div class="logo">
+                    <a href="index.html"><img src="images2/logo-boda-top.png" style="width: 64%;" alt=""></a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="icon-bar"><i class="ti-line-double"></i></span> </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home" data-scroll-nav="0">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#whenwhere" data-scroll-nav="6">¿When & Where?</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#outfit" data-scroll-nav="8">Dress Code</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp5" data-scroll-nav="7">Gifts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp2" data-scroll-nav="9">Notes</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Slider section -->
+    <header id="home" data-scroll-index="0">
+        <div class="mary-hero js-fullheight">
+            <div class="flexslider js-fullheight">
+                <ul class="slides">
+                    <li class="bg-fixed" style="background-image: url(images/JAP_7974.jpg); 
+                    background-position: 70% center;" data-overlay-dark="2" id="icon">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center js-fullheight slider-text">
+                                    <div class="slider-text-inner mx-auto">
+                                        <h2>Alissa y Evencio</h2>
+                                        <h6>April 10, 2027</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <!-- Welcome section -->
+    <div id="welcome" class="welcome section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="welcome-mt">
+                        <div class="welcome-image-wrapper">
+						</div>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2 text-center">
+                    <p>“True love stories never have an ending”</p>
+					<p style="color: #BB9F81;">Press play and relive this moment!</p>
+            		<audio controls loop>
+  					<source src="music.mp3" type="audio/mpeg">
+					</audio>
+					<p></p>
+					<h2 class="section-title" style="color: #384D26;">We’re getting married!</h2>
+					<p><b>We want you to join us on this special day and be part of our story.”</b></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Countdown section -->
+    <div id="countdown" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/JAP_8116.jpg" style="background-position: 40% center;">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h6>Our new chapter is about to begin</h6>
+                    <h2>We’re getting married in:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li><span id="days"></span>Days</li>
+                        <li><span id="hours"></span>Hours</li>
+                        <li><span id="minutes"></span>Minutes</li>
+                        <li><span id="seconds"></span>Seconds</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Video section -->
+    <div id="video" class="story-video section-padding bg-img bg-fixed" data-overlay-dark="2"
+        data-background="images/JAP_8154.jpg">
+        <div class="container">
+            <div class="video-wrapper">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="caption">
+                            <h6 class="subtitle">Here we close a beautiful chapter and begin a new adventure together</h6>
+                            <h2 class="title">We continue writing our story</h2><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-60 img text-center">
+                        		<a class="vid valign" href="https://youtu.be/B0iJwxmtW38">
+                            <div class="vid-butn">
+                                <span class="icon"><i class="ti-control-play"></i></span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- When & Where section -->
+    <div id="whenwhere" class="when-where section-paddinggg" data-scroll-index="6"
+        style="background: url(images/FLORES-02.png) ; background-size:21%; background-repeat: no-repeat; background-position: top right;" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle" style="color: #BB9F81;">Save the Date</h6>
+                    <h2 class="section-title" style="color: #384D26;">When & Where?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="img left">
+                        <img src="images/JAP_7962.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 valign animate-box" data-animate-effect="fadeInRight">
+                    <div class="content">
+                        <div class="date">
+                            <h3 style="color: #BB9F81;">10</h3>
+                            <h6>April 2027</h6>
+                        </div>
+                        <div class="cont" align="left">
+                            <div class="info" align="left">
+                            </div>
+                            <h4 style="color: #384D26;">Wedding Ceremony</h4>
+                            <ul class="list-unstyled cont-list">
+                                <li>
+                                    <div class="icon"> <span class="ti-location-pin" style="color: #BB9F81;"></span> </div>
+                                    <div class="text">
+                                        <p align="left">Iglesia San Rafael de San Ramón</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"> <span class="ti-time" style="color: #BB9F81;"></span> </div>
+                                    <div class="text">
+                                        <p>2:00 pm</p>
+                                    </div>
+									
+                                </li>
+								<br>
+								<a href="https://maps.app.goo.gl/NCbA8gLcjfWri14S6"><img src="images/boton-google.png" alt="" style="width: 65%;"></a>
+								<br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="whenwhere" class="when-where section-paddinggg" data-scroll-index="6"
+        style="background: url(images/FLORES-03.png) ; background-size:18%; background-repeat: no-repeat; background-position: top left;">
+        <br>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                    <div class="content">
+                        <div class="date">
+                            <h3 style="color: #BB9F81;">10</h3>
+                            <h6>April 2027</h6>
+                        </div>
+                        <div class="cont" align="left">
+                            <div class="info" align="left">
+                            </div>
+                            <h4 style="color: #384D26;">Reception</h4>
+                            <ul class="list-unstyled cont-list">
+                                <li>
+                                    <div class="icon"> <span class="ti-location-pin" style="color: #BB9F81;"></span> </div>
+                                    <div class="text">
+                                        <p>Terrazas Linda Vista, San Ramón.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"> <span class="ti-time" style="color: #BB9F81;"></span> </div>
+                                    <div class="text">
+                                        <p>3:30 pm</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+										<br>
+										<a href="https://maps.app.goo.gl/abZmM8as4zwvWbsq8"><img src="images/boton-google.png" alt="" style="width: 70%;"></a>
+										<br>
+                                        <i class="fa-brands fa-waze" style="color: #b08c3e;"></i>
+                                    </div>
+                                    <div class="text">
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order1 animate-box" data-animate-effect="fadeInRight">
+                    <div class="img">
+                        <img src="images/JAP_7984.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+	
+    <!-- Dress Code section -->
+    <div id="outfit" class="bride-groom clear section-padding bg-cream" data-scroll-index="8">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30 animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle"  style="color: #BB9F81;">Dress Code</h6>
+                    <h2 class="section-title" style="color: #384D26;">Formal</h2>
+                </div>
+                <img src="images/Imagen2.png" alt="">
+
+                <div class="col-md-12 text-center mb-30 animate-box">
+                    <div class="widget-container" style="text-align: center;">
+                        <br>
+                        <p style="font-size: larger;">We want you to look your best! Kindly reserve white and similar shades for the bride.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RSVP Form section -->
+    <div id="rsvp5" class="rsvp section-padding bg-img bg-fixed" data-background="images/JAP_8039.jpg"
+        data-scroll-index="7" style="background-position: 20% center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 bg-white p-60" style="opacity: 0.7;">
+                    <h2 class="text-center">YOUR PRESENCE IS THE GREATEST GIFT TO US</br></h2>
+                    <h6 class="text-center" style="font-family: Didact Gothic; font-size: large;">If you would like to give us a gift, you will find a special place at the celebration where you can leave an envelope. For those who prefer to make a bank transfer, we have included our account details below.
+					<br>
+					<br>Evencio Gerardo Elizondo Vargas
+					<br>BAC colones
+					<br>BAC: 950032813 
+					<br>IBAN: CR93010200009500328131
+					<br>
+					<br>BCR colones 
+					<br>IBAN: CR46015202001239713398
+					<br>
+					<br>Sinpe móvil: Evencio Elizondo
+					<br>8791-8666
+					<br>
+					<br>Sinpe móvil: Alissa Rodríguez
+					<br>8809-4766
+
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div id="rsvp2" class="rsvp section-padding bg-img bg-fixed" data-background="images/JAP_8063.jpg"
+        data-scroll-index="9" style="background-position: 40%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 bg-white p-60" style="opacity: 0.8;">
+                    <h6 class="text-center" style="font-family: Didact Gothic; font-size: large; color: #BD8B55;">
+                    There are moments we dream of, wait for, and finally get to experience. This is one of them.
+					<br>After so many years of sharing our story, we want to begin a new chapter surrounded by those who have been part of our journey.
+					<br>We don’t want you to miss this special moment.
+					<br>We hope to share it with you and create a memory together that will last forever. 
+					<br>  
+                    </h6>
+
+                    <h6 class="text-center" style="font-family: Didact Gothic; font-size: large; color: #626554;">
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+	<br>
+    <br>
+        <!-- RSVP Form section -->
+    <div id="rsvp" class="rsvp section-padding bg-img bg-fixed" data-background="images/JAP_7977.jpg"
+        data-scroll-index="7" style="background-position: 45% center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 bg-white p-60" style="opacity: 0.7
+																	   ;">
+                    <h2 class="text-center"><b>We have reserved 1</b><br><b>seat for you</b></br></h2>
+				<h6 class="text-center" style="font-family: Didact Gothic; font-size: large; color: #626554;"><b>Please RSVP by February 28, 2027</b>
+					<br>
+					<br>
+					<a href="https://wa.me/50688094766 "><img src="images/boton-contacto-peq.png" alt="" style="width: 50%;"></a>
+					<br>
+					<a href="https://wa.me/50687918666 "><img src="images/boton-contacto-gde.png" alt="" style="width: 50%;"></a>
+                    </h6>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+					<!-- Banner section -->
+    <div id="banner" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/JAP_8094.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h6>Save the Date</h6>
+					<br>
+                    <h2>¡We look forward to seeing you and celebrating this special day together!</h2>
+                    <h1>April 10, 2027</h1>
+                    <h1><i class="ti-heart"></i></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="gallery" class="section-padding bg-cream" data-scroll-index="10">
+        <div class="container" align="center">
+            <div id="outfit" class="bride-groom clear section-padding bg-cream" data-scroll-index="8">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30 animate-box" data-animate-effect="fadeInUp">
+					<h6 class="section-subtitle"  style="color: #BB9F81;">Click here to view our photo gallery</h6>
+                </div>
+				<a href="https://jsphoto5341.pixieset.com/evencioandalissaprewedding/"><img src="images/boton-galeria.png" alt="" style="width: 50%;"></a>
+				<br>
+            </div>
+        <div class="row gallery-filter" align="center">
+            <div class="col-md-2 gallery-item ceremony">
+                <div class="gallery-box">
+                    <div class="gallery-img"> <img src="images/JAP_7988.jpg" class="img-fluid mx-auto d-block"
+                            alt="">
+                    </div>
+                    <div class="gallery-detail">
+                    </div>
+                </div>
+			</div>
+            <div class="col-md-2 gallery-item ceremony">
+                <div class="gallery-box">
+                    <div class="gallery-img"> &nbsp; </div>
+                    <div class="gallery-detail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+		<img src="images2/logo-boda.png" alt="" style="width: 30%; height: auto; left: 35%; position: center;">
+    </div>
+    <br>
+    <br>
+    <!-- Footer section -->
+    <footer id="footer" style="background-color: #384D26;">
+        <div class="container">
+            <div class="top-footer">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="section-padding">
+                            <h2><span>Alissa <small>&amp;</small> Evencio</span></h2>
+                            <h6>April 10, 2027 - San Ramón, Alajuela</h6>
+
+                            <br>
+                            <br>
+
+                            <h6>Designed by <a href="https://www.japweddings.com"><u>JAP Weddings</u> <img
+                                        src="images2/VECTOR.svg" alt="" style="width: 10%;"></a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p style="color: white;">We would love for you to join us on this very special day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/sticky-kit.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/template.js"></script>
+
+</body>
+
+</html>
